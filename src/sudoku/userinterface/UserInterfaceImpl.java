@@ -62,7 +62,7 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
         while (index < 8) {
             int thickness;
             if (index == 2 || index == 5) {
-                thickness = 3;
+                thickness = 5;
             } else {
                 thickness = 3;
             }
