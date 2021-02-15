@@ -195,7 +195,6 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
     @Override
     public void showDialog(String message) {
-
         Alert dialog = new Alert(Alert.AlertType.CONFIRMATION, message, ButtonType.OK);
         dialog.showAndWait();
         if (dialog.getResult() == ButtonType.OK) listener.onDialogClick();
